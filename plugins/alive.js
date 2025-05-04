@@ -14,11 +14,11 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
     try {
         // Generate system status message
         const status = `
-╭──〔𝐁.𝐌.𝐁-𝐗𝐌𝐃〕───·๏
-┃🛸┃• *⏳ Uptime*:  ${runtime(process.uptime())} 
+╭──〔no name〕───·๏
+┃🛸┃• *⏳ Uptime*:  2 year
 ┃🛸┃• *📟 Ram usage*: ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}GB / ${(os.totalmem() / 1024 / 1024).toFixed(2)}TB
-┃🛸┃• *⚙️ HostName*: ${os.hostname()}
-┃🛸┃• *👨‍💻 Creator*: 𝙱.𝙼.𝙱-𝚇𝙼𝙳
+┃🛸┃• *⚙️ HostName*: vps
+┃🛸┃• *👨‍💻 Creator*: pahan
 ┃🛸┃• *🧬 Version*: 1.0.0
 ╰──────────────┈⊷
 > © 𝐁.𝐌.𝐁-𝐗𝐌𝐃`;
